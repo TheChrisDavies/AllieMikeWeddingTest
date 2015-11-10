@@ -1556,7 +1556,7 @@
 
 	body {
 		background: #f5f7fa;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Libre Baskerville', serif;
 		font-weight: 300;
 		color: #52575c;
 		line-height: 1.75em;
@@ -2718,7 +2718,7 @@
 				}
 
 					#navButton .toggle:before {
-						font-family: FontAwesome;
+						font-family: DrCarbfred;
 						text-decoration: none;
 						font-style: normal;
 						font-weight: normal;
