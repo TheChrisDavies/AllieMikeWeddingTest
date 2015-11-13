@@ -1696,6 +1696,8 @@
 
 		header.major {
 			text-align: center;
+			font-family: DrCarbfred;
+				src: url("assets/fonts/DrCarbfred.otf") format("opentype");
 		}
 
 /* Image */
@@ -2069,6 +2071,8 @@
 			letter-spacing: 3px;
 			text-align: center;
 			text-transform: uppercase;
+			font-family: DrCarbfred;
+				src: url("assets/fonts/DrCarbfred.otf") format("opentype");
 		}
 
 	#nav {
@@ -2079,6 +2083,8 @@
 		width: 100%;
 		height: 4em;
 		line-height: 4em;
+		font-family: DrCarbfred;
+		src: url("assets/fonts/DrCarbfred.otf") format("opentype");
 	}
 
 		#nav > ul {
@@ -2624,6 +2630,8 @@
 
 			#logo {
 				position: relative;
+				font-family: DrCarbfred;
+				src: url("assets/fonts/DrCarbfred.otf") format("opentype");
 			}
 
 				#logo a {
@@ -2631,6 +2639,7 @@
 					border-radius: 0.35em;
 					height: 3em;
 					line-height: 3em;
+					
 				}
 
 		/* Nav */
@@ -2867,6 +2876,8 @@
 
 			header.major {
 				text-align: left;
+				font-family: DrCarbfred;
+				src: url("assets/fonts/DrCarbfred.otf") format("opentype");
 			}
 
 		/* Image */
@@ -2930,6 +2941,8 @@
 				top: 0;
 				margin: 0;
 				width: 100%;
+				font-family: DrCarbfred;
+				src: url("assets/fonts/DrCarbfred.otf") format("opentype");
 			}
 
 		/* Hero */
