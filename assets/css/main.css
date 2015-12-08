@@ -1585,6 +1585,8 @@
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
 		color: #52575c;
+		font-family: DrCarbfred;
+				src: url("assets/fonts/DrCarbfred.otf") format("opentype");
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1684,6 +1686,7 @@
 
 	header {
 		margin-bottom: 1.5em;
+		font-family: "Libre Baskerville",serif;
 	}
 
 		header > p {
@@ -1692,7 +1695,7 @@
 			padding: 0.75em 0 1em 0;
 			font-size: 1.5em;
 			line-height: 1.5em;
-		}
+			}
 
 		header.major {
 			text-align: center;
