@@ -20,6 +20,7 @@
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
+		margin: auto;
 	}
 
 	body {
@@ -67,6 +68,7 @@
 		width: 100%;
 		max-width: 1500px;
 		min-width: 1200px;
+		margin: auto;
 	}
 
 	.container.\37 5\25 {
@@ -1585,8 +1587,8 @@
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
 		color: #52575c;
-		font-family: DrCarbfred;
-				src: url("assets/fonts/DrCarbfred.otf") format("opentype");
+		font-family: 'Libre Baskerville', serif;
+		
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1687,20 +1689,21 @@
 	header {
 		margin-bottom: 1.5em;
 		font-family: "Libre Baskerville",serif;
+		margin: auto;
 	}
 
 		header > p {
 			display: block;
-			color: #f35858;
+			color: #777f67;
 			padding: 0.75em 0 1em 0;
 			font-size: 1.5em;
 			line-height: 1.5em;
+			margin: auto;
 			}
 
 		header.major {
 			text-align: center;
-			font-family: DrCarbfred;
-				src: url("assets/fonts/DrCarbfred.otf") format("opentype");
+			font-family: 'Libre Baskerville', serif;
 		}
 
 /* Image */
@@ -1728,7 +1731,12 @@
 		.image.featured {
 			display: block;
 			width: 100%;
-			margin: 0 0 3em 0;
+			margin: auto;
+		}
+		.image.featuredmain {
+			display: block;
+			width: 50%;
+			margin: auto;
 		}
 
 		.image.left {
@@ -1740,7 +1748,7 @@
 			display: block;
 			margin: 0 0 3em 0;
 		}
-
+ca
 			.image.centered img {
 				margin: 0 auto;
 				width: auto;
@@ -1951,7 +1959,7 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			color: #f35858;
+			color: #777F67;
 			border-color: rgba(243, 88, 88, 0.5);
 		}
 
@@ -2012,11 +2020,11 @@
 		position: relative;
 		padding: 4em 0 2em 0;
 		background-image: url("images/header.svg");
-		background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #d37959 15%, #d37959 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #d37959 15%, #d37959 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #d37959 15%, #d37959 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #d37959 15%, #d37959 55%);
-		background-color: #1ebaff;
+		background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #C6916F 15%, #d37959 55%);
+		background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #C6916F 15%, #d37959 55%);
+		background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #C6916F 15%, #d37959 55%);
+		background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #C6916F 15%, #d37959 55%);
+		background-color: #1ebaff; /* #1ebaff*/
 		background-size: 100% 620%;
 		background-size: 128px 128px, 100% 620%, auto;
 		background-repeat: repeat, no-repeat, no-repeat;
@@ -2074,8 +2082,7 @@
 			letter-spacing: 3px;
 			text-align: center;
 			text-transform: uppercase;
-			font-family: DrCarbfred;
-				src: url("assets/fonts/DrCarbfred.otf") format("opentype");
+			font-family: 'Libre Baskerville', serif;
 		}
 
 	#nav {
@@ -2086,8 +2093,7 @@
 		width: 100%;
 		height: 4em;
 		line-height: 4em;
-		font-family: DrCarbfred;
-		src: url("assets/fonts/DrCarbfred.otf") format("opentype");
+		font-family: 'Libre Baskerville', serif;
 	}
 
 		#nav > ul {
@@ -2633,8 +2639,7 @@
 
 			#logo {
 				position: relative;
-				font-family: DrCarbfred;
-				src: url("assets/fonts/DrCarbfred.otf") format("opentype");
+				font-family: 'Libre Baskerville', serif;
 			}
 
 				#logo a {
@@ -2730,7 +2735,7 @@
 				}
 
 					#navButton .toggle:before {
-						font-family: DrCarbfred;
+						font-family: 'Libre Baskerville', serif;
 						text-decoration: none;
 						font-style: normal;
 						font-weight: normal;
@@ -2779,7 +2784,7 @@
 				z-index: 10002;
 				box-shadow: inset 0px -2px 5px 0px rgba(0, 0, 0, 0.25);
 				font-size: 1em;
-				background-color: #45474a;
+				background-color: #c6916f; /*#45474a*/
 				background-size: 128px 128px, 100% 100%, 100% 100%;
 			}
 
@@ -2879,8 +2884,7 @@
 
 			header.major {
 				text-align: left;
-				font-family: DrCarbfred;
-				src: url("assets/fonts/DrCarbfred.otf") format("opentype");
+				font-family: 'Libre Baskerville', serif;
 			}
 
 		/* Image */
@@ -2944,8 +2948,7 @@
 				top: 0;
 				margin: 0;
 				width: 100%;
-				font-family: DrCarbfred;
-				src: url("assets/fonts/DrCarbfred.otf") format("opentype");
+				font-family: 'Libre Baskerville', serif;
 			}
 
 		/* Hero */
@@ -2964,6 +2967,7 @@
 
 			#content {
 				margin-bottom: 2em;
+				margin: auto;
 			}
 
 		/* Sidebar */
