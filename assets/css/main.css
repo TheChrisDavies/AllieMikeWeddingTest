@@ -1735,7 +1735,7 @@
 		}
 		.image.featuredmain {
 			display: block;
-			width: 50%;
+			width: 45%;
 			margin: auto;
 		}
 
@@ -1747,6 +1747,11 @@
 		.image.centered {
 			display: block;
 			margin: 0 0 3em 0;
+		}
+		.image.noborder{
+		display: inline;
+		margin: 0 0 0 0;
+		padding: 0;
 		}
 ca
 			.image.centered img {
